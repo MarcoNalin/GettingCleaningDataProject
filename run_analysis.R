@@ -1,11 +1,3 @@
-GettingCleaningDataProject
-==========================
-
-Course project for the Getting and Cleaning Data on Coursera
-
-This is the script that generated the clean dataset, which can be found in the file: run_analysis.R
-
-<div>
 # Download the data file
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl, dest = "Dataset.zip")
@@ -73,4 +65,3 @@ names(tidy_dataset)[2] <- "activities"
 
 # Finally we save the tidy_dataset to file
 write.table(tidy_dataset, file = "tidydata.txt")
-</div>
